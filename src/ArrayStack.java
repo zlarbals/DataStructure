@@ -1,7 +1,7 @@
 public class ArrayStack {
     private int top;
     private int maxSize;
-    private Object[] stackArray; //자료형은 필요에 따라 변경 요망.
+    private Object[] stackArray; //자료형은 필요에 따라 변경 필요.
 
     //stack 생성
     public ArrayStack(int maxSize) {
