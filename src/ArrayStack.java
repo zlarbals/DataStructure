@@ -14,6 +14,7 @@ public class ArrayStack {
     public void Push(Object data){
         if(isFull())
             return;
+
         stackArray[++top] = data;
     }
 
@@ -42,7 +43,7 @@ public class ArrayStack {
     }
 
     public boolean isFull(){
-        if(top == maxSize)
+        if(top == maxSize - 1)
             return true;
         else
             return false;
