@@ -1,3 +1,9 @@
+/*
+ArrayStack
+blackgirin
+2019-11-07
+ */
+
 public class ArrayStack {
     private int top;
     private int maxSize;
