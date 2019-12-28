@@ -5,4 +5,4 @@ Data Structure
 
 2.ArrayCircularQueue / ListQueue
 
-3.Tree/Graph
+3.ArrayGraph / ListGraph
