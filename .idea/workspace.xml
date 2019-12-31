@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e443244-6f41-4f04-a55f-d4ce96bc06f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/DatsStructure/ListTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DatsStructure/META-INF/DatsStructure.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DatsStructure/TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ListTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hash.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DatsStructure/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DatsStructure/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +96,8 @@
       <workItem from="1577383163143" duration="583000" />
       <workItem from="1577428118689" duration="748000" />
       <workItem from="1577547127219" duration="7448000" />
-      <workItem from="1577636576159" duration="4585000" />
+      <workItem from="1577636576159" duration="4773000" />
+      <workItem from="1577784376226" duration="6529000" />
     </task>
     <task id="LOCAL-00001" summary="ArrayStack">
       <created>1572977248856</created>
@@ -187,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577554920894</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="ListTree">
+      <created>1577641270904</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1577641270904</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -221,9 +224,29 @@
     <MESSAGE value="ListStack" />
     <MESSAGE value="ListQueue" />
     <MESSAGE value="Graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="Graph" />
+    <MESSAGE value="ListTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="ListTree" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Hash.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Hash.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Hash.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="((ListGraph)this).vertex" custom="ListGraph" />
