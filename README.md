@@ -8,3 +8,5 @@ Data Structure
 3.ArrayGraph / ListGraph
 
 4.ListTree
+
+5.Hash
