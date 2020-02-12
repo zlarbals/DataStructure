@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2e443244-6f41-4f04-a55f-d4ce96bc06f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearchTree.java" afterDir="false" />
+    <list default="true" id="2e443244-6f41-4f04-a55f-d4ce96bc06f0" name="Default Changelist" comment="BinarySearchTree">
       <change afterPath="$PROJECT_DIR$/src/Deque.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DatsStructure/Hash.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DatsStructure/Hash.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DatsStructure/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DatsStructure/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +27,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1TyxbF6vE6r1wLO4m9d3BqyevFZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -98,7 +97,7 @@
       <workItem from="1580578944119" duration="1180000" />
       <workItem from="1581350100532" duration="4870000" />
       <workItem from="1581413415245" duration="15000" />
-      <workItem from="1581490917594" duration="7512000" />
+      <workItem from="1581490917594" duration="9601000" />
     </task>
     <task id="LOCAL-00001" summary="ArrayStack">
       <created>1572977248856</created>
@@ -198,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577793276936</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="BinarySearchTree">
+      <created>1581499744407</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1581499744407</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -234,33 +240,34 @@
     <MESSAGE value="Graph" />
     <MESSAGE value="ListTree" />
     <MESSAGE value="Hash" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hash" />
+    <MESSAGE value="BinarySearchTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="BinarySearchTree" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2685" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1581354545685">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2685" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581354545685" />
-    <state x="2465" y="112" key="CommitChangelistDialog2" timestamp="1581499675708">
+    <state x="2465" y="112" key="CommitChangelistDialog2" timestamp="1581503678468">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2465" y="112" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581499675708" />
-    <state width="1877" height="347" key="GridCell.Tab.0.bottom" timestamp="1581497753038">
+    <state x="2465" y="112" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581503678468" />
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom" timestamp="1581502471810">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581497753038" />
-    <state width="1877" height="347" key="GridCell.Tab.0.center" timestamp="1581497753038">
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581502471810" />
+    <state width="1877" height="347" key="GridCell.Tab.0.center" timestamp="1581502471810">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581497753038" />
-    <state width="1877" height="347" key="GridCell.Tab.0.left" timestamp="1581497753038">
+    <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581502471810" />
+    <state width="1877" height="347" key="GridCell.Tab.0.left" timestamp="1581502471809">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581497753038" />
-    <state width="1877" height="347" key="GridCell.Tab.0.right" timestamp="1581497753038">
+    <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581502471809" />
+    <state width="1877" height="347" key="GridCell.Tab.0.right" timestamp="1581502471810">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581497753038" />
+    <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581502471810" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1581497753213">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -277,6 +284,14 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581497753212" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581499770715">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581499770715" />
+    <state x="2684" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581503252565">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2684" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581503252565" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

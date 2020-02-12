@@ -140,10 +140,10 @@ public class BinarySearchTree {
         return null;
     }
 
-    private Node getRightMinNode(Node rightNode) {
+    private Node getRightMinNode(Node targetNode) {
         Node target, temp;
-        target = rightNode;
-        temp = rightNode.rightNode;
+        target = targetNode;
+        temp = targetNode.rightNode;
         while (temp != null) {
             target = temp;
             temp = temp.leftNode;
