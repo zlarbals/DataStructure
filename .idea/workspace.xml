@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e443244-6f41-4f04-a55f-d4ce96bc06f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Hash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Deque.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DatsStructure/Hash.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DatsStructure/Hash.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DatsStructure/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DatsStructure/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +32,11 @@
   </component>
   <component name="ProjectId" id="1TyxbF6vE6r1wLO4m9d3BqyevFZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -37,18 +45,6 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -97,7 +93,12 @@
       <workItem from="1577428118689" duration="748000" />
       <workItem from="1577547127219" duration="7448000" />
       <workItem from="1577636576159" duration="4773000" />
-      <workItem from="1577784376226" duration="6529000" />
+      <workItem from="1577784376226" duration="6688000" />
+      <workItem from="1577808648218" duration="11000" />
+      <workItem from="1580578944119" duration="1180000" />
+      <workItem from="1581350100532" duration="4870000" />
+      <workItem from="1581413415245" duration="15000" />
+      <workItem from="1581490917594" duration="7512000" />
     </task>
     <task id="LOCAL-00001" summary="ArrayStack">
       <created>1572977248856</created>
@@ -190,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577641270904</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Hash">
+      <created>1577793276935</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1577793276936</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">
@@ -225,7 +233,50 @@
     <MESSAGE value="ListQueue" />
     <MESSAGE value="Graph" />
     <MESSAGE value="ListTree" />
-    <option name="LAST_COMMIT_MESSAGE" value="ListTree" />
+    <MESSAGE value="Hash" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hash" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2685" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1581354545685">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2685" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581354545685" />
+    <state x="2465" y="112" key="CommitChangelistDialog2" timestamp="1581499675708">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2465" y="112" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581499675708" />
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom" timestamp="1581497753038">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581497753038" />
+    <state width="1877" height="347" key="GridCell.Tab.0.center" timestamp="1581497753038">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581497753038" />
+    <state width="1877" height="347" key="GridCell.Tab.0.left" timestamp="1581497753038">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581497753038" />
+    <state width="1877" height="347" key="GridCell.Tab.0.right" timestamp="1581497753038">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581497753038" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1581497753213">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581497753213" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1581497753212">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581497753212" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1581497753212">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581497753212" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1581497753212">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581497753212" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
