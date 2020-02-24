@@ -1,12 +1,10 @@
 # DataStructure
-Data Structure
+1.Stack
 
-1.ArrayStack / ListStack
+2.Queue
 
-2.ArrayCircularQueue / ListQueue
+3.Graph
 
-3.ArrayGraph / ListGraph
-
-4.ListTree
+4.Tree - BST, RBTree
 
 5.Hash
