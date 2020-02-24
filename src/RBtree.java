@@ -226,6 +226,11 @@ public class RBtree {
                     node = node.parent.parent;
                     continue;
                 }
+                if(node == node.parent.rightNode){
+                    //double rotate
+                    node=node.parent;
+                    RotateLeft(node);
+                }
 
                 //re structuring
                 node.parent.color = 0;
@@ -239,6 +244,11 @@ public class RBtree {
                     ReColoring(node, uncle);
                     node = node.parent.parent;
                     continue;
+                }
+                if(node==node.parent.leftNode){
+                    //double rotate
+                    node=node.parent;
+                    RotateRight(node);
                 }
 
                 //re structruing
