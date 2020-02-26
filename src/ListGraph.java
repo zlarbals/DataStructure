@@ -2,7 +2,6 @@ public class ListGraph {
     private int vertexNumber;
     private Vertex[] vertex;
 
-
     private class Vertex{
         private int data;
         private Vertex nextEdge;
@@ -21,7 +20,7 @@ public class ListGraph {
         }
     }
 
-    public void AddEdge(int start,int end){//consider use enum
+    public void AddEdge(int start,int end){
         Vertex newVertex = new Vertex();
         newVertex.data=end;
         Vertex temp = new Vertex();
@@ -47,4 +46,5 @@ public class ListGraph {
             System.out.println(temp.data);
         }
     }
+
 }
